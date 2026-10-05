@@ -1,0 +1,28 @@
+{
+  "name": "alapbackend",
+  "version": "1.0.0",
+  "description": ">>>>>>> 6f795cc30ad503ce5e578b258242dba8d51323bb",
+  "homepage": "https://github.com/taglal/GeneralAPI#readme",
+  "bugs": {
+    "url": "https://github.com/taglal/GeneralAPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taglal/GeneralAPI.git"
+  },
+  "license": "ISC",
+  "author": "Hem",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "envdot": "^0.0.3",
+    "express": "^5.2.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.14",
+    "sha1": "^1.1.1"
+  }
+}
