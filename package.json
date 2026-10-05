@@ -19,10 +19,17 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "D": "^1.0.0",
+    "dotenv": "^18.0.5",
     "envdot": "^0.0.3",
     "express": "^5.2.1",
     "mysql": "^2.18.1",
-    "nodemon": "^3.1.14",
     "sha1": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "allowScripts": {
+    "nodemon@1.19.4": true
   }
 }
